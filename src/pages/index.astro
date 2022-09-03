@@ -1,4 +1,5 @@
 ---
+import Monkey from "../islands/Monkey.tsx";
 ---
 
 <html lang="en">
@@ -11,5 +12,8 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+    <div>
+      <Monkey client:only="react" />
+    </div>
 	</body>
 </html>
